@@ -1,0 +1,82 @@
+#main > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#main > div > :nth-child(2) {
+    cursor: pointer;
+}
+
+#main > div > h3 {
+    margin-top: 12.5px;
+    margin-bottom: 12.5px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.container {
+    width: 90vw;
+    height: 92vh;
+    margin: 0 auto;
+    border: solid;
+    display: flex;
+    flex-direction: column; /* Use column layout */
+}
+
+.container-header {
+    height: 64px;
+    min-height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+}
+
+.search-banner {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.search-banner > input {
+    width: 35vw;
+    padding: 5px;
+    border: 0;
+    border-radius: 5px; 
+    background-color: rgb(207, 207, 207);
+}
+
+div.actions.visible {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.actions > .check-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.actions > .check-all > input {
+    margin-bottom: 2px;
+    margin-right: 5px;
+}
+
+.icons-actions > * {
+    padding-right: 15px;
+}
+
+.page-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex-grow: 1;
+    overflow-y: auto;
+    margin: 1px;
+    padding: 10px;
+    border: solid;
+}
